@@ -2,7 +2,10 @@ module linkcut
 
 go 1.21.0
 
-require github.com/go-kit/kit v0.13.0
+require (
+	github.com/go-kit/kit v0.13.0
+	github.com/gorilla/mux v1.8.0
+)
 
 require (
 	github.com/go-kit/log v0.2.0 // indirect
